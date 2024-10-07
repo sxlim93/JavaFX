@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox alignment="CENTER" prefHeight="377.0" prefWidth="291.0" spacing="20.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/22" fx:controller="appli.todolistjx.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <Text strokeDashOffset="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bienvenue !" textAlignment="CENTER" wrappingWidth="156.06575536727905">
+      <VBox.margin>
+         <Insets bottom="1.0" top="70.0" />
+      </VBox.margin>
+      <font>
+         <Font size="29.0" />
+      </font>
+   </Text>
+   <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Votre email :" />
+   <TextField />
+   <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Votre mot de passe :" />
+   <TextField />
+   <Button mnemonicParsing="false" text="Connexion" />
+   <Button mnemonicParsing="false" text="Mot de passe oublié" />
+   <Button mnemonicParsing="false" text="Inscription" />
+
+    <Label fx:id="welcomeText" prefHeight="17.0" prefWidth="0.0" />
+   <opaqueInsets>
+      <Insets bottom="200.0" left="200.0" right="200.0" top="200.0" />
+   </opaqueInsets>
+</VBox>

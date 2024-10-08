@@ -8,7 +8,7 @@
 <?import javafx.scene.text.Text?>
 
 
-<AnchorPane prefHeight="488.0" prefWidth="290.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="appli.todolistjx.InscriptionControler">
+<AnchorPane prefHeight="488.0" prefWidth="290.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="appli.acceuil.InscriptionControler">
    <opaqueInsets>
       <Insets bottom="200.0" left="200.0" right="200.0" top="200.0" />
    </opaqueInsets>

@@ -1,4 +1,4 @@
-package appli.todolistjx;
+package appli.acceuil;
 
 public class InscriptionControler {
 }
